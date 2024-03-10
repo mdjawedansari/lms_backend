@@ -14,11 +14,10 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 // Third-Party
 app.use(
-  cors(({
+  cors({
     origin: [process.env.FRONTEND_URL],
     credentials: true,
-    optionSuccessStatus:200
-  }))
+  })
 );
 app.use(morgan('dev'));
 app.use(cookieParser());
