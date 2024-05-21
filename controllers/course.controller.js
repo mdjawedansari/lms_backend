@@ -1,7 +1,7 @@
 import fs from 'fs/promises';
 import path from 'path';
 
-import cloudinary from 'cloudinary';
+import cloudinary from 'cloudinary'; 
 
 import asyncHandler from '../middlewares/asyncHandler.middleware.js';
 import Course from '../models/course.model.js';

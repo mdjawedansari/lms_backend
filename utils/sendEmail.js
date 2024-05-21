@@ -10,7 +10,7 @@ const sendEmail = async function (email, subject, message) {
     auth: {
       user: process.env.SMTP_USERNAME,
       pass: process.env.SMTP_PASSWORD,
-    },
+    },  
   });
 
   // send mail with defined transport object

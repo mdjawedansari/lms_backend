@@ -1,6 +1,6 @@
 import { Router } from 'express';
 import {
-  contactUs,
+  contactUs, 
   userStats,
 } from '../controllers/miscellaneous.controller.js';
 import { authorizeRoles, isLoggedIn } from '../middlewares/auth.middleware.js';

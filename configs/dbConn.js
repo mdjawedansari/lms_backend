@@ -8,7 +8,7 @@ import mongoose from "mongoose";
  * query for a non-existent field.
  */
 mongoose.set("strictQuery", false);
-
+ 
 const connectToDB = async () => {
   try {
     const { connection } = await mongoose.connect(

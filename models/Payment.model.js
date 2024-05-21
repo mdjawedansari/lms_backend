@@ -3,7 +3,7 @@ import { model, Schema } from 'mongoose';
 const paymentSchema = new Schema(
   {
     razorpay_payment_id: {
-      type: String,
+      type: String, 
       required: true,
     },
     razorpay_subscription_id: {

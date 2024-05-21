@@ -2,7 +2,7 @@ import { Router } from 'express';
 import {
   getRazorpayApiKey,
   buySubscription,
-  verifySubscription,
+  verifySubscription, 
   cancelSubscription,
   allPayments,
 } from '../controllers/payment.controller.js';
